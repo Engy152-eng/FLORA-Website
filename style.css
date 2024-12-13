@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    display:flex;
+    top: 0; left: 0;right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background-color: white;
+    color: #fff;
+    box-shadow: 0 .5rem 5rem rgba(0, 0, 0, 5);
+    height: 10vh;
+}
+.navbar .Logo a { 
+    font-size: 2.5rem;
+    color: #43443d;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:"Playwrite GB J Guides";
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 1rem;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.nav-links li a:hover{
+    color: pink;
+}
+ .icons a{
+    font-size: 1rem;
+    color: #333;
+    margin-left: 0.5rem;
+ }
+ .icons a:hover{
+    color:pink ;
+ }
+ section{
+    padding: 2rem 9%;
+ }
+.Home {
+    background-image: url(top-view-pink-tulip-flowers-pink-background_864588-81185.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 15rem 9%;
+
+}
+.Home .content{
+    max-width: 40rem;
+}
+.Home .content h3{
+    font-size: 3.5rem;
+    color: #333;
+    font-family:"Playwrite GB J Guides";
+}
+.Home .content span{
+    font-size: 2rem;
+    color:rgb(194, 73, 137);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+.Home .content p{
+    font-size: rem;
+    color:#999;
+    padding:1rem 0;
+    line-height:1.5;
+}
+.action-button {
+    display: inline-block;
+    padding: 0.5rem 3rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+ font-size: 1.5rem;
+ text-decoration: none;
+}
+.action-button:hover{
+    background: rgb(194, 73, 137);
+}
+.heading{
+    text-align: center;
+    color: #333;
+    padding: 0.5rem;
+    font-size: 3.5rem;
+    margin: 1.5rem 0;
+    background: rgba(225, 51, 153, .05);
+    max-width: 1366px;
+}
+.heading span{
+    color: rgb(194, 73, 137);
+}
+.About .about-section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    padding:50px 50px;
+    gap: 1rem;
+    
+}
+.About .about-section .image {
+    flex: 1 1 40rem;
+   position: relative;
+}
+
+.About .about-section .image img{
+    width:95%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    display: block;
+}
+
+.About .about-section .content{
+    flex: 1 1 40rem;
+}
+.About .about-section .content h3{
+    font-size: 3rem;
+    color: #333;
+}
+.About .about-section .content p{
+    font-size: 1rem;
+    color: #999;
+    padding: 1rem 0;
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 3rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+ font-size: 1.5rem;
+ text-decoration: none;
+}
+.btn:hover{
+    background: rgb(194, 73, 137);
+}
+.product{
+    width: 100%;
+    height: 600px;
+}
+.flowers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px auto;
+    
+}
+.flower{
+    width: 300px;
+    height: 410px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 0.7rem;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2),0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s ease;
+    margin: 60px 10px;
+  
+}
+.flower-img{
+    width: 100%;
+    height: 60%;
+}
+.flower img{
+    width: 60%;
+    margin: 20px 60px;
+}
+.flower-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.flower-text h3{
+    font-size: 1.7rem;
+    color: #333;
+}
+.flower-text h2{
+    font-size: 1.3rem;
+    color: rgb(194, 73, 137);
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+.flower-buy{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.news-content h2{
+    font-size: 2rem;
+    margin-top: 200px;
+    color: #333;
+}
+form{
+    display: flex;
+    gap: 5px;
+    margin: 10px 40px;
+    width: 500px;
+
+}
+input{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+.btnn{
+    display: inline-block;
+    padding: 0.5rem 3rem;
+  background-color: pink;
+  color: #333;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+ font-size: 1.5rem;
+ text-decoration: none;
+}
+.btnn:hover{
+  background: rgb(194, 73, 137);
+    
+}
+.footer{
+    padding-bottom: 100px;
+}
+.accordin-answer{
+    display: none;
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.accordin-answer li a{
+    text-decoration: none;
+    color: #666;
+    padding: 1px;
+    display: block;
+    font-size: 1.2rem;
+}
+.accordin-answer p{
+    color: #666;
+    padding: 1px;
+    display: block;
+    font-size: 1.2rem;
+}
+.accordin-answer li a:hover{
+    color: pink;
+}
+.accordin.active .accordin-answer{
+    display: block;
+}
+.accordin-question h3{
+    user-select: none;
+    margin-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.accordin-question span{
+    color: #fff;
+    background-color: palevioletred;
+    background-size: 60px 60px ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.accordin-question span:hover{
+    color: black;
+}
+.box-container{
+    display: flex;
+}
+.accordin:hover{
+    cursor: pointer;
+}
+.accordin{
+    width: 30%;
+}
+.credit{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+.credit span{
+    color:rgb(194, 73, 137)
+}
